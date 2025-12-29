@@ -1,0 +1,32 @@
+# Build directories
+/build*/
+/cmake-build-*/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+
+# Benchmark output
+benchmark_results*.json
+
+# Docs build output
+site/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated data
+data/sample.root
+
