@@ -30,6 +30,7 @@ std::vector<Track> TrackReconstructor::reconstruct() {
     }
 
     // Missing: delete[] hitBuffer;
+    delete[] hitBuffer;
     
     return tracks;
 }
